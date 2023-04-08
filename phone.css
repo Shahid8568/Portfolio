@@ -1,0 +1,243 @@
+@media screen and (max-width: 1280px){
+#navLeft li a {
+    margin: 0 15px;
+}
+}
+@media screen and (max-width: 1030px){
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    nav li a {
+        margin: 0 -4px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .profile img {
+        height: 100%;
+        object-position: 40px -23px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav li {
+        margin: 5px 20px !important;
+        margin-left: -14px !important;
+    }
+    nav li a{
+        font-size: 13px;
+    }
+    .details nav .li{
+        margin: 0 20px !important;
+    }
+
+    #projects .box:nth-child(1) button {
+        margin: 6% 26%;
+    }
+    #projects .box:nth-child(2) button {
+        margin: 6% 26%;
+    }
+    #projects .box:nth-child(3) button {
+        margin: 6% 26%;
+    }
+    #projects .box:nth-child(4) button {
+        margin: 6% 26%;
+    }
+
+    .box button {
+        margin: 4% 30%;
+    }
+
+    #contact .conDetails p {
+        font-size: 17px;
+    }
+    #contact .conDetails i {
+        font-size: 38px;
+    }
+    .icons {
+        margin-top: 5%;
+        display: flex;
+    }
+    .icons i{
+        margin: 0 15px;
+    }
+    #contact .fa-sharp {
+        font-size: 25px !important;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav li {
+        list-style: none;
+        margin: 5px 20px !important;
+        margin-left: -14px !important;
+    }
+    nav li a {
+        margin: 0 4px;
+    }
+    #home{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .name{
+        width: 85%;
+    }
+    .name p {
+        font-size: 16px;
+    }
+    .name h3 {
+        font-size: 30px;
+    }
+    .name button {
+        padding: 5px;
+    }
+    .profile{
+        display: none;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: 100% !important;
+    }
+    h1 {
+        text-align: start;
+        margin-top: 6%;
+        margin-left: 25%;
+    }
+    .photo {
+        height: 40vh !important;
+        width: 75% !important; 
+    }
+    .details {
+        width: 80%;
+    }
+    .details nav .li{
+        margin: 0 20px;
+    }
+    .conDetails {
+       flex-direction: column;
+    }
+    .icons {
+        margin-top: 5%;
+        display: flex;
+    }
+    .icons i{
+        margin: 0 15px;
+    }
+    #contact .fa-sharp {
+        font-size: 30px;
+        left: 90%;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    nav li a {
+        margin: 0 1px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav li {
+        margin: 5px 55px;
+        margin-left: -6px;
+    }
+    #home{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .name{
+        width: 85%;
+    }
+    .name p {
+        font-size: 16px;
+    }
+    .name h3 {
+        font-size: 30px;
+    }
+    .name button {
+        padding: 5px;
+    }
+    .profile{
+        display: none;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: 100% !important;
+    }
+    .photo {
+        width: 88% !important; 
+    }
+    .details {
+        width: 98%;
+    }
+    
+    .conDetails {
+        flex-direction: column;
+     }
+     .icons {
+         margin-top: 5%;
+         display: flex;
+     }
+     .icons i{
+         margin: 0 15px;
+     }
+     #contact .fa-sharp {
+         font-size: 30px;
+         left: 90%;
+         bottom: 0px;
+     }
+}
+@media screen and (max-width: 820px){
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    #navLeft {
+        width: 21%;
+    }
+    
+    #home {
+        height: 100%;
+    }
+    #about{
+        height: 45vh;
+    }
+    .photo {
+        height: 38vh;
+        width: 40%;
+        margin-top: 5%;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .conDetails {
+        margin: 0 6%;
+    }
+}
